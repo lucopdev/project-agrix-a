@@ -83,4 +83,9 @@ public class FarmController {
         newCrop.getFarm().getId());
     return cropDto;
   }
+
+  @GetMapping("/{id}/crops")
+  public List<CropDto> getCropsById(@PathVariable Integer id) {
+    return cropService.getCropsById(id);
+  }
 }
