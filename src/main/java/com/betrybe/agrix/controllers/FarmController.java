@@ -1,12 +1,15 @@
 package com.betrybe.agrix.controllers;
 
 import com.betrybe.agrix.controllers.dto.FarmDTO;
+import com.betrybe.agrix.exceptions.FarmNotFound;
 import com.betrybe.agrix.model.entities.Farm;
 import com.betrybe.agrix.service.FarmService;
 import java.util.List;
+import java.util.Optional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,7 +34,17 @@ public class FarmController {
 
   @GetMapping()
   public ResponseEntity<List<Farm>> getFarms() {
-    List<Farm> allFarms = farmService.getBooks();
+    List<Farm> allFarms = farmService.getFarms();
     return ResponseEntity.ok(allFarms);
+  }
+
+  @GetMapping("/{id}")
+  public ResponseEntity<Farm> getFarmById(@PathVariable Integer id) throws FarmNotFound {
+    Optional<Farm> optionalFarm = farmService.getFarmById(id);
+    if (optionalFarm.isEmpty()) {
+      throw new FarmNotFound();
+    }
+
+    return ResponseEntity.ok(optionalFarm.get());
   }
 }
