@@ -1,5 +1,10 @@
 package com.betrybe.agrix.controllers.dto;
 
-public class FarmDTO {
+import com.betrybe.agrix.model.entities.Farm;
 
+public record FarmDTO(Integer id, String name, Double size) {
+
+  public Farm toFarm() {
+    return new Farm(id, name, size);
+  }
 }

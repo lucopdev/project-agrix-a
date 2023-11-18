@@ -441,3 +441,416 @@ SystemEventQueueThread: Thread[AWT-EventQueue-0,6,main] 990754948
 2023-11-17 18:28:36,758 [13297689]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
 2023-11-17 18:28:43,849 [13304780]   WARN - c.i.e.t.s.r.GeneralTestEventsProcessor - [JUnit]: TestStartedEvent{name='Class Configuration', id='[engine:junit-jupiter]/[class:com.betrybe.agrix.evaluation.FarmManagementTest]', parentId='0', running=true} has been already started: {id=[engine:junit-jupiter]/[class:com.betrybe.agrix.evaluation.FarmManagementTest], parentId=0, name='Req 01-03', isSuite=true, state=RUNNING}!
 2023-11-17 18:28:45,763 [13306694]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 18:29:44,634 [13365565]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 18:32:43,238 [13544169] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 14 >= 14
+2023-11-17 18:32:43,238 [13544169] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 14 >= 14
+2023-11-17 18:37:15,730 [13816661]   WARN - c.i.d.a.a.DockerAuthProvider$Default - Can't access config file in folder: /home/lucopdev/.docker
+2023-11-17 18:37:34,345 [13835276]   WARN - c.i.d.a.p.AgentResultCallbackTemplate - Error during callback
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.SocketChannelImpl.endRead(SocketChannelImpl.java:389)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:428)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:261)
+	at org.apache.hc.core5.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:222)
+	at org.apache.hc.core5.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:183)
+	at org.apache.hc.core5.http.io.EofSensorInputStream.read(EofSensorInputStream.java:135)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._loadMore(UTF8StreamJsonParser.java:258)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:3150)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:3145)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:757)
+	at com.fasterxml.jackson.databind.MappingIterator.hasNextValue(MappingIterator.java:246)
+	at com.github.dockerjava.core.DefaultInvocationBuilder$JsonSink.accept(DefaultInvocationBuilder.java:314)
+	at com.github.dockerjava.core.DefaultInvocationBuilder$JsonSink.accept(DefaultInvocationBuilder.java:298)
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:275)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-17 18:37:52,999 [13853930]   WARN - #c.i.d.r.d.DockerComposeDeployer - Cannot create class com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser (classloader=PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active))
+com.intellij.diagnostic.PluginException: Cannot create class com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser (classloader=PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active))
+	at com.intellij.serviceContainer.ComponentManagerImpl.doInstantiateClass(ComponentManagerImpl.kt:1003)
+	at com.intellij.serviceContainer.ComponentManagerImpl.instantiateClass(ComponentManagerImpl.kt:954)
+	at com.intellij.serviceContainer.ComponentManagerImpl.createLightService(ComponentManagerImpl.kt:933)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getOrCreateLightService(ComponentManagerImpl.kt:736)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doGetService(ComponentManagerImpl.kt:688)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getService(ComponentManagerImpl.kt:630)
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser$Companion.getInstance(PureDockerComposeConfigurationParser.kt:160)
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser.getInstance(PureDockerComposeConfigurationParser.kt)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeConfigurationParserUtil.uncachedParserForUi(DockerComposeConfigurationParserUtil.java:28)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider$myCachingParser$2.invoke(DockerComposeFileConfigurationProvider.kt:38)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider$myCachingParser$2.invoke(DockerComposeFileConfigurationProvider.kt:37)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getMyCachingParser(DockerComposeFileConfigurationProvider.kt:37)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getConfigFor(DockerComposeFileConfigurationProvider.kt:57)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getConfigFor$default(DockerComposeFileConfigurationProvider.kt:45)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployerKt.computeComposeProjectName(DockerComposeDeployer.kt:231)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployerKt.computeComposeProjectName(DockerComposeDeployer.kt:218)
+	at com.intellij.docker.DockerRuntimesManager.deploy(DockerRuntimesManager.kt:338)
+	at com.intellij.docker.runtimes.DockerRuntimeKt.deploy(DockerRuntime.kt:186)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState$execute$1.invoke(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState$execute$1.invoke(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState.execute$lambda$0(DockerDeployToServerStateProvider.kt:68)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState.execute(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.execution.runners.DefaultProgramRunnerKt.executeState(DefaultProgramRunner.kt:33)
+	at com.intellij.remoteServer.impl.runtime.DeployToServerRunner$execute$1.invoke(DeployToServerRunner.kt:21)
+	at com.intellij.remoteServer.impl.runtime.DeployToServerRunner$execute$1.invoke(DeployToServerRunner.kt:20)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:207)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:205)
+	at com.intellij.execution.impl.ExecutionManagerImpl.doStartRunProfile$lambda$2(ExecutionManagerImpl.kt:269)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:24)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:208)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:190)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.openapi.application.impl.ApplicationImpl$4.run(ApplicationImpl.java:478)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:79)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:121)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/dataformat/yaml/YAMLFactory
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser.<init>(PureDockerComposeConfigurationParser.kt:38)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doInstantiateClass(ComponentManagerImpl.kt:962)
+	... 69 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.dataformat.yaml.YAMLFactory PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active)
+	at com.intellij.ide.plugins.cl.PluginClassLoader.loadClass(PluginClassLoader.kt:156)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 71 more
+2023-11-17 18:37:53,003 [13853934]   WARN - #c.i.d.r.d.DockerComposeDeployer - Cannot create class com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser (classloader=PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active))
+com.intellij.diagnostic.PluginException: Cannot create class com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser (classloader=PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active))
+	at com.intellij.serviceContainer.ComponentManagerImpl.doInstantiateClass(ComponentManagerImpl.kt:1003)
+	at com.intellij.serviceContainer.ComponentManagerImpl.instantiateClass(ComponentManagerImpl.kt:954)
+	at com.intellij.serviceContainer.ComponentManagerImpl.createLightService(ComponentManagerImpl.kt:933)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getOrCreateLightService(ComponentManagerImpl.kt:736)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doGetService(ComponentManagerImpl.kt:688)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getService(ComponentManagerImpl.kt:630)
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser$Companion.getInstance(PureDockerComposeConfigurationParser.kt:160)
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser.getInstance(PureDockerComposeConfigurationParser.kt)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeConfigurationParserUtil.uncachedParserForUi(DockerComposeConfigurationParserUtil.java:28)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider$myCachingParser$2.invoke(DockerComposeFileConfigurationProvider.kt:38)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider$myCachingParser$2.invoke(DockerComposeFileConfigurationProvider.kt:37)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getMyCachingParser(DockerComposeFileConfigurationProvider.kt:37)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getConfigFor(DockerComposeFileConfigurationProvider.kt:57)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getConfigFor$default(DockerComposeFileConfigurationProvider.kt:45)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployerKt.computeComposeProjectName(DockerComposeDeployer.kt:231)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployerKt.access$computeComposeProjectName(DockerComposeDeployer.kt:1)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployer.<init>(DockerComposeDeployer.kt:62)
+	at com.intellij.docker.DockerRuntimesManager.deploy(DockerRuntimesManager.kt:347)
+	at com.intellij.docker.runtimes.DockerRuntimeKt.deploy(DockerRuntime.kt:186)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState$execute$1.invoke(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState$execute$1.invoke(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState.execute$lambda$0(DockerDeployToServerStateProvider.kt:68)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState.execute(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.execution.runners.DefaultProgramRunnerKt.executeState(DefaultProgramRunner.kt:33)
+	at com.intellij.remoteServer.impl.runtime.DeployToServerRunner$execute$1.invoke(DeployToServerRunner.kt:21)
+	at com.intellij.remoteServer.impl.runtime.DeployToServerRunner$execute$1.invoke(DeployToServerRunner.kt:20)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:207)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:205)
+	at com.intellij.execution.impl.ExecutionManagerImpl.doStartRunProfile$lambda$2(ExecutionManagerImpl.kt:269)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:24)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:208)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:190)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.openapi.application.impl.ApplicationImpl$4.run(ApplicationImpl.java:478)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:79)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:121)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/dataformat/yaml/YAMLFactory
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser.<init>(PureDockerComposeConfigurationParser.kt:38)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doInstantiateClass(ComponentManagerImpl.kt:962)
+	... 70 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.dataformat.yaml.YAMLFactory PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active)
+	... 72 more
+2023-11-17 18:54:00,522 [14821453]   WARN - #c.i.d.r.d.DockerComposeDeployer - Cannot create class com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser (classloader=PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active))
+com.intellij.diagnostic.PluginException: Cannot create class com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser (classloader=PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active))
+	at com.intellij.serviceContainer.ComponentManagerImpl.doInstantiateClass(ComponentManagerImpl.kt:1003)
+	at com.intellij.serviceContainer.ComponentManagerImpl.instantiateClass(ComponentManagerImpl.kt:954)
+	at com.intellij.serviceContainer.ComponentManagerImpl.createLightService(ComponentManagerImpl.kt:933)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getOrCreateLightService(ComponentManagerImpl.kt:736)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doGetService(ComponentManagerImpl.kt:688)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getService(ComponentManagerImpl.kt:630)
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser$Companion.getInstance(PureDockerComposeConfigurationParser.kt:160)
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser.getInstance(PureDockerComposeConfigurationParser.kt)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeConfigurationParserUtil.uncachedParserForUi(DockerComposeConfigurationParserUtil.java:28)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider$myCachingParser$2.invoke(DockerComposeFileConfigurationProvider.kt:38)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider$myCachingParser$2.invoke(DockerComposeFileConfigurationProvider.kt:37)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getMyCachingParser(DockerComposeFileConfigurationProvider.kt:37)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getConfigFor(DockerComposeFileConfigurationProvider.kt:57)
+	at com.intellij.docker.compose.configuration.beans.parse.DockerComposeFileConfigurationProvider.getConfigFor$default(DockerComposeFileConfigurationProvider.kt:45)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployerKt.computeComposeProjectName(DockerComposeDeployer.kt:231)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployerKt.access$computeComposeProjectName(DockerComposeDeployer.kt:1)
+	at com.intellij.docker.runtimes.deploy.DockerComposeDeployer.appendDeploymentTask$intellij_clouds_docker(DockerComposeDeployer.kt:98)
+	at com.intellij.docker.DockerRuntimesManager.deploy(DockerRuntimesManager.kt:342)
+	at com.intellij.docker.runtimes.DockerRuntimeKt.deploy(DockerRuntime.kt:186)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState$execute$1.invoke(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState$execute$1.invoke(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState.execute$lambda$0(DockerDeployToServerStateProvider.kt:68)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at com.intellij.docker.runtimes.deploy.DockerDeployToServerStateProvider$DockerState.execute(DockerDeployToServerStateProvider.kt:68)
+	at com.intellij.execution.runners.DefaultProgramRunnerKt.executeState(DefaultProgramRunner.kt:33)
+	at com.intellij.remoteServer.impl.runtime.DeployToServerRunner$execute$1.invoke(DeployToServerRunner.kt:21)
+	at com.intellij.remoteServer.impl.runtime.DeployToServerRunner$execute$1.invoke(DeployToServerRunner.kt:20)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:207)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:205)
+	at com.intellij.execution.impl.ExecutionManagerImpl.doStartRunProfile$lambda$2(ExecutionManagerImpl.kt:269)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:24)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:208)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:190)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.openapi.application.impl.ApplicationImpl$4.run(ApplicationImpl.java:478)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:79)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:121)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/dataformat/yaml/YAMLFactory
+	at com.intellij.docker.compose.configuration.beans.parse.PureDockerComposeConfigurationParser.<init>(PureDockerComposeConfigurationParser.kt:38)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doInstantiateClass(ComponentManagerImpl.kt:962)
+	... 70 more
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.dataformat.yaml.YAMLFactory PluginClassLoader(plugin=PluginDescriptor(name=Docker, id=Docker, descriptorPath=plugin.xml, path=~/.local/share/JetBrains/IdeaIC2023.2/clouds-docker-impl, version=232.10203.2, package=com.intellij.docker, isBundled=false), packagePrefix=com.intellij.docker., state=active)
+	... 72 more
+2023-11-17 20:07:08,796 [19209727]   WARN - org.apache.velocity.deprecation - configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2023-11-17 20:07:08,798 [19209729]   WARN - org.apache.velocity.deprecation - configuration key 'includes.resource.loader.class' has been deprecated in favor of 'resource.loader.includes.class'
+2023-11-17 20:12:57,134 [19558065] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:57,134 [19558065] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:57,634 [19558565] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:57,634 [19558565] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:58,137 [19559068] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:58,641 [19559572] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:58,641 [19559572] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:59,147 [19560078] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:59,650 [19560581] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:12:59,651 [19560582] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:00,157 [19561088] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:00,657 [19561588] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:00,657 [19561588] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:01,158 [19562089] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:01,662 [19562593] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:01,663 [19562594] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:02,166 [19563097] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:02,667 [19563598] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:02,667 [19563598] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 20:13:13,360 [19574291]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 20:21:39,604 [20080535]   WARN - #c.i.o.o.e.ConfigurableExtensionPointUtil - ignore configurable with duplicated id: device.file.explorer
+2023-11-17 20:21:39,614 [20080545]   WARN - #c.i.o.o.e.ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting
+2023-11-17 20:29:04,665 [20525596]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 20:29:33,133 [20554064]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 20:31:39,772 [20680703]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 20:32:16,713 [20717644]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 20:32:30,881 [20731812]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 21:42:32,847 [24933778]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 21:45:03,324 [25084255]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 21:49:12,913 [25333844] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:12,913 [25333844] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:12,932 [25333863] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:12,933 [25333864] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:12,959 [25333890] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:12,959 [25333890] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:13,414 [25334345] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:13,917 [25334848] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:13,917 [25334848] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:13,997 [25334928] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:13,997 [25334928] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:14,118 [25335049] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:14,118 [25335049] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:14,420 [25335351] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:14,923 [25335854] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:14,923 [25335854] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:15,427 [25336358] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:15,615 [25336546] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:17,779 [25338710] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:17,779 [25338710] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:18,282 [25339213] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:18,282 [25339213] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:18,785 [25339716] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:18,959 [25339890] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:20,919 [25341850] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:20,920 [25341851] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:21,362 [25342293] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:21,362 [25342293] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:21,423 [25342354] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:21,925 [25342856] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:21,925 [25342856] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:22,428 [25343359] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:22,931 [25343862] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:22,931 [25343862] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:23,435 [25344366] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:25,520 [25346451] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:25,520 [25346451] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:25,529 [25346460] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:25,529 [25346460] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:25,567 [25346498] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:25,567 [25346498] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:26,023 [25346954] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:26,023 [25346954] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:26,266 [25347197] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:26,266 [25347197] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:26,405 [25347336] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:26,406 [25347337] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:26,528 [25347459] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,029 [25347960] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,029 [25347960] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,110 [25348041] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,110 [25348041] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,129 [25348060] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,130 [25348061] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,149 [25348080] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,150 [25348081] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,170 [25348101] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,170 [25348101] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,190 [25348121] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,190 [25348121] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,211 [25348142] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,212 [25348143] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,230 [25348161] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,231 [25348162] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,250 [25348181] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,251 [25348182] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,271 [25348202] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,271 [25348202] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,291 [25348222] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,291 [25348222] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,311 [25348242] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,311 [25348242] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,331 [25348262] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,331 [25348262] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,351 [25348282] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,351 [25348282] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,371 [25348302] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,371 [25348302] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,391 [25348322] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,392 [25348323] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,412 [25348343] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,412 [25348343] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,431 [25348362] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,432 [25348363] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,452 [25348383] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,452 [25348383] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,472 [25348403] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,473 [25348404] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,492 [25348423] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,493 [25348424] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,512 [25348443] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,513 [25348444] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,532 [25348463] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,552 [25348483] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,574 [25348505] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,612 [25348543] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,653 [25348584] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,673 [25348604] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,694 [25348625] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:27,713 [25348644] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:28,035 [25348966] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:28,036 [25348967] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:28,156 [25349087] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:28,156 [25349087] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:28,256 [25349187] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:28,256 [25349187] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:28,538 [25349469] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:29,041 [25349972] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:29,041 [25349972] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:29,499 [25350430] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:29,504 [25350435] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:29,504 [25350435] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:33,050 [25353981] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:33,050 [25353981] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:33,549 [25354480] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:33,549 [25354480] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
+2023-11-17 21:49:33,899 [25354830] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: -1 < 0
