@@ -871,3 +871,288 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.dataformat.ya
 2023-11-17 22:56:54,647 [29395578]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Actual binding is of type [org.jetbrains.idea.maven.server.Maven3WrapperSl4LoggerFactory]
 2023-11-17 22:56:58,579 [29399510]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
 2023-11-17 23:01:20,290 [29661221]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-17 23:03:59,186 [29820117]   WARN - #c.i.o.a.i.ActionUpdater - 301 ms to grab EDT for FontEditorPreview$RestorePreviewTextAction#update@ContextToolbar (com.intellij.application.options.colors.FontEditorPreview$RestorePreviewTextAction)
+2023-11-17 23:04:07,588 [29828519]   WARN - #c.i.o.a.i.ActionUpdater - 301 ms to grab EDT for FontEditorPreview$RestorePreviewTextAction#update@ContextToolbar (com.intellij.application.options.colors.FontEditorPreview$RestorePreviewTextAction)
+2023-11-18 10:05:06,111 [69487042]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:23:31,733 [70592664]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:25:24,176 [70705107]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:32:47,950 [71148881]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:42:04,650 [71705581]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:49:01,549 [72122480]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:51:14,937 [72255868]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:51:20,961 [72261892]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:51:42,468 [72283399]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 10:57:39,124 [72640055]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:05:11,394 [73092325]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:06:23,248 [73164179]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:07:25,035 [73225966]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:10:54,007 [73434938]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:13:02,876 [73563807]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:13:47,881 [73608812]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:18:36,998 [73897929]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:22:11,377 [74112308]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:28:03,462 [74464393]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:28:26,098 [74487029]   WARN - #o.j.j.d.IdeaDecompiler - Inconsistent generic signature in method <init> (Ljava/lang/String;I)V in org/junit/platform/commons/util/ReflectionUtils$HierarchyTraversalMode [org/junit/platform/commons/util/ReflectionUtils]
+2023-11-18 11:28:26,200 [74487131]   WARN - #o.j.j.d.IdeaDecompiler - Inconsistent references to the class 'org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor$1' which is supposed to be anonymous
+2023-11-18 11:28:26,436 [74487367]   WARN - #o.j.j.d.IdeaDecompiler - Inconsistent generic signature in method <init> (Ljava/lang/String;I)V in org/junit/platform/engine/support/hierarchical/Node$ExecutionMode [org/junit/platform/engine/support/hierarchical/Node]
+2023-11-18 11:32:07,118 [74708049]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:37:42,034 [75042965]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:38:02,891 [75063822]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:41:29,731 [75270662]   WARN - #c.i.i.n.ide - Data rule [navigationBarItem] returned invalid context item of type [class com.intellij.psi.impl.source.PsiFieldImpl]
+2023-11-18 11:41:53,766 [75294697]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:44:47,592 [75468523]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:47:17,177 [75618108]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:56:58,187 [76199118]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 11:59:08,912 [76329843]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:04:09,590 [76630521]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:07:12,657 [76813588]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:09:28,208 [76949139] SEVERE - #c.i.o.a.i.CoroutineExceptionHandlerImpl - Unhandled PCE in [CoroutineName(com.intellij.ide.actionsOnSave.impl.CurrentActionHolder), ModalityState.NON_MODAL, StandaloneCoroutine{Cancelling}@18c852b4, Dispatchers.EDT]. Try wrapping the throwing code into `blockingContext {}`
+java.lang.IllegalStateException: com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.openapi.application.impl.CoroutineExceptionHandlerImpl.handleException(CoroutineExceptionHandlerImpl.kt:26)
+	at kotlinx.coroutines.internal.CoroutineExceptionHandlerImpl_commonKt.handleUncaughtCoroutineException(CoroutineExceptionHandlerImpl.common.kt:38)
+	at kotlinx.coroutines.CoroutineExceptionHandlerKt.handleCoroutineException(CoroutineExceptionHandler.kt:32)
+	at kotlinx.coroutines.StandaloneCoroutine.handleJobException(Builders.common.kt:194)
+	at kotlinx.coroutines.JobSupport.finalizeFinishingState(JobSupport.kt:230)
+	at kotlinx.coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.kt:909)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:866)
+	at kotlinx.coroutines.JobSupport.makeCompletingOnce$kotlinx_coroutines_core(JobSupport.kt:831)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlinx.coroutines.debug.internal.DebugProbesImpl$CoroutineOwner.resumeWith(DebugProbesImpl.kt:538)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:43)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:208)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:190)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.openapi.application.impl.ApplicationImpl$4.run(ApplicationImpl.java:478)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:79)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:121)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+Caused by: com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.throwIfCanceled(AbstractProgressIndicatorBase.java:158)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.checkCanceled(AbstractProgressIndicatorBase.java:148)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorExBase.checkCanceled(AbstractProgressIndicatorExBase.java:89)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.checkCancelledEvenWithPCEDisabled(ProgressIndicatorUtils.java:403)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:506)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:222)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.performFileProcessing(AbstractLayoutCodeProcessor.java:463)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.lambda$iteration$3(AbstractLayoutCodeProcessor.java:437)
+	at com.intellij.openapi.project.DumbService.withAlternativeResolveEnabled(DumbService.kt:277)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.iteration(AbstractLayoutCodeProcessor.java:437)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.lambda$process$10(AbstractLayoutCodeProcessor.java:524)
+	at com.intellij.codeInsight.actions.FileRecursiveIterator.lambda$processAll$4(FileRecursiveIterator.java:69)
+	at com.intellij.openapi.roots.impl.FileIndexBase.lambda$toContentIteratorEx$1(FileIndexBase.java:48)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl$processContentFilesRecursively$visitor$1.visitFileEx(WorkspaceFileIndexImpl.kt:142)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:296)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl.processContentFilesRecursively(WorkspaceFileIndexImpl.kt:151)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl.processContentFilesRecursively(WorkspaceFileIndexImpl.kt:115)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectory(FileIndexBase.java:41)
+	at com.intellij.openapi.roots.impl.ProjectFileIndexImpl.iterateContentUnderDirectory(ProjectFileIndexImpl.java:31)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectory(FileIndexBase.java:72)
+	at com.intellij.openapi.roots.impl.ProjectFileIndexImpl.iterateContentUnderDirectory(ProjectFileIndexImpl.java:31)
+	at com.intellij.codeInsight.actions.FileRecursiveIterator.processAll(FileRecursiveIterator.java:64)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.process(AbstractLayoutCodeProcessor.java:522)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor.processFilesUnderProgress(AbstractLayoutCodeProcessor.java:373)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor.lambda$runProcessFiles$1(AbstractLayoutCodeProcessor.java:328)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$1.run(CoreProgressManager.java:252)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.startTask(CoreProgressManager.java:428)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.startTask(ProgressManagerImpl.java:115)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressSynchronously$9(CoreProgressManager.java:512)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$new$0(ProgressRunner.java:87)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:251)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:71)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:71)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$5(ProgressRunner.java:251)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$launchTask$18(ProgressRunner.java:465)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-18 12:09:28,213 [76949144] SEVERE - #c.i.o.a.i.CoroutineExceptionHandlerImpl - IntelliJ IDEA 2023.2.4  Build #IC-232.10203.10
+2023-11-18 12:09:28,213 [76949144] SEVERE - #c.i.o.a.i.CoroutineExceptionHandlerImpl - JDK: 17.0.8.1; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2023-11-18 12:09:28,213 [76949144] SEVERE - #c.i.o.a.i.CoroutineExceptionHandlerImpl - OS: Linux
+Exception in thread "AWT-EventQueue-0" com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.throwIfCanceled(AbstractProgressIndicatorBase.java:158)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.checkCanceled(AbstractProgressIndicatorBase.java:148)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorExBase.checkCanceled(AbstractProgressIndicatorExBase.java:89)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.checkCancelledEvenWithPCEDisabled(ProgressIndicatorUtils.java:403)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:506)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:222)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.performFileProcessing(AbstractLayoutCodeProcessor.java:463)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.lambda$iteration$3(AbstractLayoutCodeProcessor.java:437)
+	at com.intellij.openapi.project.DumbService.withAlternativeResolveEnabled(DumbService.kt:277)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.iteration(AbstractLayoutCodeProcessor.java:437)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.lambda$process$10(AbstractLayoutCodeProcessor.java:524)
+	at com.intellij.codeInsight.actions.FileRecursiveIterator.lambda$processAll$4(FileRecursiveIterator.java:69)
+	at com.intellij.openapi.roots.impl.FileIndexBase.lambda$toContentIteratorEx$1(FileIndexBase.java:48)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl$processContentFilesRecursively$visitor$1.visitFileEx(WorkspaceFileIndexImpl.kt:142)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:296)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl.processContentFilesRecursively(WorkspaceFileIndexImpl.kt:151)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl.processContentFilesRecursively(WorkspaceFileIndexImpl.kt:115)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectory(FileIndexBase.java:41)
+	at com.intellij.openapi.roots.impl.ProjectFileIndexImpl.iterateContentUnderDirectory(ProjectFileIndexImpl.java:31)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectory(FileIndexBase.java:72)
+	at com.intellij.openapi.roots.impl.ProjectFileIndexImpl.iterateContentUnderDirectory(ProjectFileIndexImpl.java:31)
+	at com.intellij.codeInsight.actions.FileRecursiveIterator.processAll(FileRecursiveIterator.java:64)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.process(AbstractLayoutCodeProcessor.java:522)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor.processFilesUnderProgress(AbstractLayoutCodeProcessor.java:373)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor.lambda$runProcessFiles$1(AbstractLayoutCodeProcessor.java:328)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$1.run(CoreProgressManager.java:252)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.startTask(CoreProgressManager.java:428)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.startTask(ProgressManagerImpl.java:115)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressSynchronously$9(CoreProgressManager.java:512)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$new$0(ProgressRunner.java:87)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:251)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:71)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:71)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$5(ProgressRunner.java:251)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$launchTask$18(ProgressRunner.java:465)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [CoroutineName(com.intellij.ide.actionsOnSave.impl.CurrentActionHolder), ModalityState.NON_MODAL, StandaloneCoroutine{Cancelling}@18c852b4, Dispatchers.EDT]
+2023-11-18 12:10:18,910 [76999841]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:15:28,284 [77309215]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:17:15,075 [77416006]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:18:02,394 [77463325]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:18:42,918 [77503849]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:20:26,655 [77607586]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:20:44,825 [77625756]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:22:17,279 [77718210]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 12:25:07,329 [77888260]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+Exception in thread "AWT-EventQueue-0" com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.throwIfCanceled(AbstractProgressIndicatorBase.java:158)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.checkCanceled(AbstractProgressIndicatorBase.java:148)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorExBase.checkCanceled(AbstractProgressIndicatorExBase.java:89)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.checkCancelledEvenWithPCEDisabled(ProgressIndicatorUtils.java:403)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl$Submission.executeSynchronously(NonBlockingReadActionImpl.java:506)
+	at com.intellij.openapi.application.impl.NonBlockingReadActionImpl.executeSynchronously(NonBlockingReadActionImpl.java:222)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.performFileProcessing(AbstractLayoutCodeProcessor.java:463)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.lambda$iteration$3(AbstractLayoutCodeProcessor.java:437)
+	at com.intellij.openapi.project.DumbService.withAlternativeResolveEnabled(DumbService.kt:277)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.iteration(AbstractLayoutCodeProcessor.java:437)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.lambda$process$10(AbstractLayoutCodeProcessor.java:524)
+	at com.intellij.codeInsight.actions.FileRecursiveIterator.lambda$processAll$4(FileRecursiveIterator.java:69)
+	at com.intellij.openapi.roots.impl.FileIndexBase.lambda$toContentIteratorEx$1(FileIndexBase.java:48)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl$processContentFilesRecursively$visitor$1.visitFileEx(WorkspaceFileIndexImpl.kt:142)
+	at com.intellij.openapi.vfs.VfsUtilCore.visitChildrenRecursively(VfsUtilCore.java:296)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl.processContentFilesRecursively(WorkspaceFileIndexImpl.kt:151)
+	at com.intellij.workspaceModel.core.fileIndex.impl.WorkspaceFileIndexImpl.processContentFilesRecursively(WorkspaceFileIndexImpl.kt:115)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectory(FileIndexBase.java:41)
+	at com.intellij.openapi.roots.impl.ProjectFileIndexImpl.iterateContentUnderDirectory(ProjectFileIndexImpl.java:31)
+	at com.intellij.openapi.roots.impl.FileIndexBase.iterateContentUnderDirectory(FileIndexBase.java:72)
+	at com.intellij.openapi.roots.impl.ProjectFileIndexImpl.iterateContentUnderDirectory(ProjectFileIndexImpl.java:31)
+	at com.intellij.codeInsight.actions.FileRecursiveIterator.processAll(FileRecursiveIterator.java:64)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor$ProcessingTask.process(AbstractLayoutCodeProcessor.java:522)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor.processFilesUnderProgress(AbstractLayoutCodeProcessor.java:373)
+	at com.intellij.codeInsight.actions.AbstractLayoutCodeProcessor.lambda$runProcessFiles$1(AbstractLayoutCodeProcessor.java:328)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$1.run(CoreProgressManager.java:252)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.startTask(CoreProgressManager.java:428)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.startTask(ProgressManagerImpl.java:115)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcessWithProgressSynchronously$9(CoreProgressManager.java:512)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$new$0(ProgressRunner.java:87)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$4(ProgressRunner.java:251)
+	at com.intellij.openapi.progress.ProgressManager.lambda$runProcess$0(ProgressManager.java:71)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.ProgressManager.runProcess(ProgressManager.java:71)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$submit$5(ProgressRunner.java:251)
+	at com.intellij.openapi.progress.impl.ProgressRunner.lambda$launchTask$18(ProgressRunner.java:465)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [CoroutineName(com.intellij.ide.actionsOnSave.impl.CurrentActionHolder), ModalityState.NON_MODAL, StandaloneCoroutine{Cancelling}@78e1f9bd, Dispatchers.EDT]
+2023-11-18 12:54:22,864 [79643795]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 13:01:58,347 [80099278]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 13:23:59,897 [81420828]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 13:27:44,053 [81644984]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 13:28:23,220 [81684151]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 13:49:14,274 [82935205]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 13:51:50,121 [83091052]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 13:54:18,479 [83239410]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 14:16:34,114 [84575045]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 14:49:37,667 [86558598]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 14:56:11,264 [86952195]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 14:57:00,008 [87000939]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:04:38,946 [87459877]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:08:12,172 [87673103]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:09:01,142 [87722073]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:09:11,119 [87732050]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:09:21,676 [87742607]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:10:09,763 [87790694]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:10:28,527 [87809458]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:13:48,509 [88009440]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:16:45,292 [88186223]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:17:05,867 [88206798]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:18:10,730 [88271661]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+
+2023-11-18 15:28:38,742 [88899673]   WARN - #o.j.i.maven - updateAllMavenProjectsSync started, edt=false
+2023-11-18 15:28:38,744 [88899675]   WARN - #o.j.i.maven - updateAllMavenProjectsSync finished, edt=false
+2023-11-18 15:28:41,270 [88902201]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Class path contains multiple SLF4J bindings.
+2023-11-18 15:28:41,270 [88902201]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Found binding in [jar:file:/home/lucopdev/idea-IC-232.10203.10/plugins/maven/lib/maven36-server.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2023-11-18 15:28:41,270 [88902201]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Found binding in [jar:file:/home/lucopdev/idea-IC-232.10203.10/lib/util-8.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2023-11-18 15:28:41,270 [88902201]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2023-11-18 15:28:41,271 [88902202]   WARN - #c.i.e.r.RemoteProcessSupport - SLF4J: Actual binding is of type [org.jetbrains.idea.maven.server.Maven3WrapperSl4LoggerFactory]
+2023-11-18 15:28:45,572 [88906503]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:33:03,254 [89164185]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 15:33:38,845 [89199776]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
