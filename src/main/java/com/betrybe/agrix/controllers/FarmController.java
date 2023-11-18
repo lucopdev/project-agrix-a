@@ -31,6 +31,7 @@ public class FarmController {
    * Instantiates a new Farm controller.
    *
    * @param farmService the farm service
+   * @param cropService the crop service
    */
   public FarmController(FarmService farmService, CropService cropService) {
     this.farmService = farmService;
@@ -75,6 +76,13 @@ public class FarmController {
     return farmDto;
   }
 
+  /**
+   * Insert crop crop dto.
+   *
+   * @param crop the crop
+   * @param id   the id
+   * @return the crop dto
+   */
   @PostMapping("/{id}/crops")
   @ResponseStatus(HttpStatus.CREATED)
   public CropDto insertCrop(@RequestBody Crop crop, @PathVariable Integer id) {
@@ -84,6 +92,12 @@ public class FarmController {
     return cropDto;
   }
 
+  /**
+   * Gets crops by id.
+   *
+   * @param id the id
+   * @return the crops by id
+   */
   @GetMapping("/{id}/crops")
   public List<CropDto> getCropsById(@PathVariable Integer id) {
     return cropService.getCropsById(id);
