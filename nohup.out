@@ -1167,3 +1167,7 @@ Exception in thread "AWT-EventQueue-0" com.intellij.openapi.progress.ProcessCanc
 2023-11-18 16:26:37,000 [92377931]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
 2023-11-18 16:27:34,947 [92435878] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 14 >= 14
 2023-11-18 16:27:34,947 [92435878] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 14 >= 14
+2023-11-18 16:40:00,643 [93181574]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 16:40:57,582 [93238513]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 16:46:10,805 [93551736]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2023-11-18 16:47:53,391 [93654322]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found

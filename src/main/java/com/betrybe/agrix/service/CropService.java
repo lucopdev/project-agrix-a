@@ -1,6 +1,7 @@
 package com.betrybe.agrix.service;
 
 import com.betrybe.agrix.controllers.dto.CropDto;
+import com.betrybe.agrix.exceptions.CropNotFound;
 import com.betrybe.agrix.exceptions.FarmNotFound;
 import com.betrybe.agrix.model.entities.Crop;
 import com.betrybe.agrix.model.entities.Farm;
@@ -94,5 +95,27 @@ public class CropService {
                 crop.getFarm().getId()
             ))
         ).toList();
+  }
+
+  /**
+   * Gets crop by id.
+   *
+   * @param id the id
+   * @return the crop by id
+   * @throws FarmNotFound the farm not found
+   */
+  public CropDto getCropById(Integer id) throws FarmNotFound {
+    Optional<Crop> optionalCrop = cropRepository.findById(id);
+    if (optionalCrop.isEmpty()) {
+      throw new CropNotFound();
+    }
+
+    CropDto cropDto = new CropDto(
+        optionalCrop.get().getId(),
+        optionalCrop.get().getName(),
+        optionalCrop.get().getPlantedArea(),
+        optionalCrop.get().getFarm().getId()
+    );
+    return cropDto;
   }
 }
